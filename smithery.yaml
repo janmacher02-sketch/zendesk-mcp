@@ -1,0 +1,32 @@
+name: zendesk-mcp
+displayName: Zendesk Support
+description: |
+  Full Zendesk integration via REST API v2. Search tickets, users, knowledge base articles.
+  Get ticket metrics, CSAT ratings, organization data, and saved views.
+  Built for support agents, CS managers, and operations teams.
+version: 1.0.0
+license: MIT
+categories:
+  - customer-support
+  - crm
+  - saas
+tags:
+  - zendesk
+  - tickets
+  - support
+  - helpdesk
+  - knowledge-base
+  - CSAT
+startCommand:
+  type: http
+  url: https://PLACEHOLDER.up.railway.app/mcp
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        title: API Key (Optional)
+        description: "Remove the 10 calls/day limit."
+    required: []
+  exampleConfig:
+    apiKey: "km_your_key_here"
