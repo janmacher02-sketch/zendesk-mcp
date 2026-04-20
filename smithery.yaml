@@ -19,7 +19,7 @@ tags:
   - CSAT
 startCommand:
   type: http
-  url: https://PLACEHOLDER.up.railway.app/mcp
+  url: https://zendesk-mcp-production-93d6.up.railway.app/mcp
   configSchema:
     type: object
     properties:
