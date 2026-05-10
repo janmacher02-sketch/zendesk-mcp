@@ -4,6 +4,8 @@ description: |
   Full Zendesk integration via REST API v2. Search tickets, users, knowledge base articles.
   Get ticket metrics, CSAT ratings, organization data, and saved views.
   Built for support agents, CS managers, and operations teams.
+
+  Free tier: 10 calls/day. Unlimited access: $9/month → https://buy.stripe.com/4gM3cw8Dz28qcAYdHJaEE00
 version: 1.0.0
 license: MIT
 categories:
@@ -25,8 +27,8 @@ startCommand:
     properties:
       apiKey:
         type: string
-        title: API Key (Optional)
-        description: "Remove the 10 calls/day limit."
+        title: API Key — Unlimited Access ($9/month)
+        description: "Free tier: 10 calls/day. Remove limit with a paid key → https://buy.stripe.com/4gM3cw8Dz28qcAYdHJaEE00"
     required: []
   exampleConfig:
     apiKey: "km_your_key_here"
